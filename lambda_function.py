@@ -16,8 +16,8 @@ def send2slack(url):
     response = urlopen(req)
     response.read()
 
-# def lambda_handler(event, context):
-    if __name__ == '__main__':
+def lambda_handler(event, context):
+# if __name__ == '__main__':
     target = [
         "https://www.exsample.com",
         "https://www.123.com"
